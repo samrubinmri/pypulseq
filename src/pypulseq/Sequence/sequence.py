@@ -16,8 +16,8 @@ import numpy as np
 from scipy.interpolate import PPoly
 
 from pypulseq import __version__, eps
-from pypulseq.aux.paper_plot import paper_plot as ext_paper_plot
-from pypulseq.aux.seq_plot import SeqPlot
+from pypulseq.aux_utils.paper_plot import paper_plot as ext_paper_plot
+from pypulseq.aux_utils.seq_plot import SeqPlot
 from pypulseq.calc_rf_center import calc_rf_center
 from pypulseq.check_timing import check_timing as ext_check_timing
 from pypulseq.check_timing import print_error_report
